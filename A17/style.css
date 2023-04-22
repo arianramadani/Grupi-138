@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.box1 {
+    background-color: red;
+}
+
+.box2 {
+    background-color: orange;
+}
+
+.box3 {
+    background-color: yellow;
+}
+
+.box4 {
+    background-color: green;
+}
+
+.box5 {
+    background-color: blue;
+}
+
+.box6 {
+    background-color: indigo;
+}
+
+.box7 {
+    background-color: violet;
+}
+
+.box8 {
+    background-color: greenyellow;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.box3 {
+    background-color: black
+}
+
+.container {
+    border: black 2px solid;
+    height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+
+
+  justify-content: fle;
+}
+
+/* flex wrap sherben per ti renditur elementet pa ia prishur madhesine
+ nuk punojn pa e perdor ate kodin ma nalt display: flex

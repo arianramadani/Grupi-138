@@ -1,0 +1,66 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: aquamarine;
+    margin: 20 0px
+}
+
+
+
+.paragraf {
+    color: red;
+}
+
+
+
+p.desc {
+    color: blue;
+}
+
+
+
+.paragraf,.description {
+    background-color: yellow;
+}
+
+
+
+div p {
+    color: blueviolet;
+}
+
+body p {
+    color: darkblue;
+}
+
+
+.hey > p {
+    color: darkblue;
+}
+
+
+.hi + p {
+    background-color: darkgoldenrod;
+}
+
+p ~ ul {
+    background-color: tomato;
+}
+
+.kutiaPrind {
+    display: block;
+    background-color: aliceblue;
+    width: fit-content;
+    padding: 10px;
+}
+
+.kutia1,  .kutia2,  .kutia3,  .kutia4 {
+    display: block;
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+    background-color: darkolivegreen;
+}
+
+.kutiaPrind :first-child {
+    background-color: red;
+}

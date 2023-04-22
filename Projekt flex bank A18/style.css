@@ -1,0 +1,54 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.search {
+    width: fit-content;
+    border-radius: 100%;
+}
+
+.pfp{
+    border-radius: 100%;
+    overflow: hidden;
+    height: 25px;
+    width: 25px;
+}
+
+.notification {
+    width: fit-content;
+    padding: 10px;
+    border-radius: 100%;
+    box-shadow: rgba(red, green, blue, alpha);
+}
+
+.body{
+    display: flex;
+    width: 100%;
+}
+
+.left {
+    width: 50%;
+    border: 2px solid black;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bill-status {
+    display: flex;
+}
+
+.status-left {
+    display: flex;
+    align-items: center;
+}
+
+.status-left > img {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+}

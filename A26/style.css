@@ -1,0 +1,23 @@
+:root {
+    --width: 400px
+}
+
+.image1 {
+    width: var(--width);
+    clip-path: circle();
+}
+
+.image2 {
+    width: var(--width);
+    clip-path: inset(50px round 70px 100px 120px);
+}
+
+.image3 {
+    width: var(--width);
+    clip-path: ellipse(150px 130px);
+}
+
+.image4 {
+    width: var(--width);
+    clip-path: polygon( 50% 0, 100% 50% , 50% 100%, 0 50%);
+}

@@ -1,0 +1,50 @@
+.blue {
+    width: 95%;
+    height: 600px;
+    background-color: darkblue;
+
+
+}
+
+
+.phone {
+    width: auto;
+    display: flex;
+    align-items: center;
+    color: lightblue;
+}
+
+.phone > svg, .phone > p {
+    margin-left: 20px;
+}
+
+.envelope {
+    width: auto;
+    display: flex;
+    align-items: center;
+    color: lightblue;
+}
+
+.location {
+    width: auto;
+    display: flex;
+    align-items: center;
+    color: lightblue;
+}
+
+.facebook {
+    color: white;
+}
+
+.twitter {
+    color: white;
+}
+
+.insta {
+    color: white;
+    
+}
+
+.white {
+    
+}

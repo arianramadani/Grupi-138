@@ -1,0 +1,47 @@
+body {
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+.base1 {
+    width: 40%;
+    background-color: plum;
+}
+
+.base2 {
+    width: 60%;
+}
+
+.our {
+    height: 25px;
+    width: 30%;
+    background-color: black;
+    color: white;
+}
+
+.contact {
+    height: 25px;
+    width: 30%;
+    background-color: plum;
+    color: black;
+
+}
